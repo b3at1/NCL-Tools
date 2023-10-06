@@ -1,4 +1,7 @@
 # NCL TOOLS
+
+#### This is a list of tools used in NCL Gym challenges. It isn't extensive, feel free to open a PR if you have other tool suggestions
+
 ### OSINT
 | Tool                  | Download/URL                                                                                           | Description                          |
 | --------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------ |
@@ -15,7 +18,7 @@
 ### PASSWORD CRACKING
 | Tool     | Download/URL                                                                                                             | Description                                                                                                                                                     |
 | -------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hashcat  | Too lazy... it's included in Kali though                                                                                 | Extract password from hashes. ```hashcat hash.txt -m 0 -a 0 /usr/share/wordlists/rockyou.txt``` is a basic command for dictionary attack on MD5 with rockyou.txt    |
+| Hashcat  | Too lazy... it's included in Kali though                                                                                 | Extract password from hashes. ```hashcat hash.txt -m 0 -a 0 /usr/share/wordlists/rockyou.txt``` is a basic command for dictionary attack on MD5 with rockyou.txt  Also check out [https://www.kali.org/tools/john/](John) for more robust applications.  |
 | ophcrack | [https://ophcrack.sourceforge.io/download.php?type=ophcrack](https://ophcrack.sourceforge.io/download.php?type=ophcrack) | NTLM Password cracker. Perhaps use XP Special wordlist. Cain and Abel possible alternative [https://github.com/xchwarze/Cain](https://github.com/xchwarze/Cain) |
 ### FORENSICS
 | Tool    | Download/URL                             | Description                                               |
