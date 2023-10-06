@@ -28,9 +28,14 @@
 | epoch converter | [https://www.epochconverter.com/](https://www.epochconverter.com/) | Convert time from/to epoch                                                                                                                                                                                            |
 | cat             | \-                                                                 | Just like be really good at passing args to cat, being able to format stuff / sort stuff is vital to log analysis. If you wanna write bash scripts to write to file instead that also works, but I feel cat is faster |
 ### NETWORK TRAFFIC ANALYSIS
-Just use Wireshark.
+Just use Wireshark tbh
 ### SCANNING
 | Tool      | Download/URL                                               | Description                                                                                                            |
 | --------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| NMAP      | Included in Kali, https://nmap.org/zenmap/ for GUI version | Network mapping tool                                                                                                   |
+| Nmap      | Included in Kali, https://nmap.org/zenmap/ for GUI version | Network mapping tool                                                                                                   |
 | Dirbuster | Too lazy... it's included in Kali though                   | Scan a web app for hidden files / directories via brute force, note that gobuster is faster, can be installed via apt. |
+### WIRELESS ACCESS EXPLOITATION
+| Tool        | Download/URL                             | Description                                                                                                                                                                                                             |
+| ----------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| aircrack-ng | Too lazy... it's included in Kali though | wifi hacking                                                                                                                                                                                                            |
+| Wireshark   | lazy                                     | Just putting this here to point out that Wireshark can decrypt traffic for different wireless protocols "Edit → Preferences → Protocols → <protocol>" then enable decryption and enter your key to decrypt the traffic. |
