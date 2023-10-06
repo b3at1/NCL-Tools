@@ -29,3 +29,8 @@
 | cat             | \-                                                                 | Just like be really good at passing args to cat, being able to format stuff / sort stuff is vital to log analysis. If you wanna write bash scripts to write to file instead that also works, but I feel cat is faster |
 ### NETWORK TRAFFIC ANALYSIS
 Just use Wireshark.
+### SCANNING
+| Tool      | Download/URL                                               | Description                                                                                                            |
+| --------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| NMAP      | Included in Kali, https://nmap.org/zenmap/ for GUI version | Network mapping tool                                                                                                   |
+| Dirbuster | Too lazy... it's included in Kali though                   | Scan a web app for hidden files / directories via brute force, note that gobuster is faster, can be installed via apt. |
