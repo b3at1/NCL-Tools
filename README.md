@@ -27,3 +27,5 @@
 | --------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | epoch converter | [https://www.epochconverter.com/](https://www.epochconverter.com/) | Convert time from/to epoch                                                                                                                                                                                            |
 | cat             | \-                                                                 | Just like be really good at passing args to cat, being able to format stuff / sort stuff is vital to log analysis. If you wanna write bash scripts to write to file instead that also works, but I feel cat is faster |
+### NETWORK TRAFFIC ANALYSIS
+Just use Wireshark.
